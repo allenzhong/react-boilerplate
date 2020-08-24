@@ -6,7 +6,7 @@
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +26,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.1",
     "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.4.2",
     "react-hot-loader": "^4.12.21",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
@@ -36,6 +37,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^10.4.9",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
