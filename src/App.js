@@ -16,6 +16,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello World</h1>
+        <img alt="company logo" src="./log/png" />
         <h2
           className={
             count > 10 ? (
